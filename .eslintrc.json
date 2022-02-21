@@ -13,10 +13,6 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
     "linebreak-style": [
       "error",
       "unix"
@@ -93,13 +89,6 @@
         }
       }
     ],
-    "max-len": [
-      "error",
-      {
-        "code": 80,
-        "ignoreUrls": true
-      }
-    ],
     "max-nested-callbacks": [
       "error",
       {
@@ -136,10 +125,6 @@
     "operator-assignment": [
       "error",
       "always"
-    ],
-    "operator-linebreak": [
-      "error",
-      "after"
     ],
     "semi-spacing": [
       "error",
@@ -206,12 +191,6 @@
     ],
     "no-shadow-restricted-names": [
       "error"
-    ],
-    "no-use-before-define": [
-      "error",
-      {
-        "functions": false
-      }
     ],
     "arrow-parens": [
       "error",
