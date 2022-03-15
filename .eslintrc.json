@@ -38,7 +38,8 @@
     ],
     "eqeqeq": [
       "error",
-      "always"
+      "always",
+      {"null": "ignore"}
     ],
     "strict": [
       "error",
